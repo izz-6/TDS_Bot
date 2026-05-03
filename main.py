@@ -1,6 +1,8 @@
 import discord
 from discord import app_commands
 
+# config.py is expected to exist at the root level
+# should provide 2 variables: TOKEN and GUILD_ID
 import config
 
 TEST_GUILD = discord.Object(id=config.GUILD_ID)
